@@ -1,6 +1,6 @@
-# Unique NFT data management workshop
+# Beyblade Battle NFT Platform
 
-The workshop demonstrates how to store, manage, and extend data using nested tokens within the Unique Network.
+This project demonstrates how to create and manage a Beyblade battle NFT platform using nested tokens within the Unique Network.
 
 ### Before we start
 
@@ -11,31 +11,30 @@ The workshop demonstrates how to store, manage, and extend data using nested tok
 
 ## Legend
 
-Let's create a very simple game. In this game user can mint an NFT that represents racing car. Each NFT starts with an empty record—no wins, no losses.
+Let's dive into our exciting Beyblade battle NFT game! In this game, users can mint NFTs that represent powerful Beyblades. Each NFT starts with an empty battle record—no wins, no losses.
 
 <img src="./images/img1.png">
 
-Players can then compete against each other. When a car wins a race, its `Victories` counter increases. If it loses, the `Defeats` counter increments accordingly.
+Players can then engage in thrilling Beyblade battles against each other. When a Beyblade wins a battle, its `Victories` counter increases. If it loses, the `Defeats` counter increments accordingly.
 
 <img src="./images/img2.png">
 
-Exciting achievements can be awarded as well, and these achievements are also NFTs owned by the original racing car NFTs!
+Epic achievements can be awarded as well, and these achievements are also NFTs owned by the original Beyblade NFTs!
 
 <img src="./images/img3.png">
 
 ### Talking about restrictions
 
-- All NFTs are owned by individual users
-- The application can modify NFT properties
-- Users cannot directly modify the properties of their NFTs
+- All Beyblade NFTs are owned by individual users
+- The application can modify NFT properties (battle records, achievements)
+- Users cannot directly modify the properties of their Beyblade NFTs
 
 ---
 
-
-## 1. Create a Racing cars collection
+## 1. Create a Beyblade collection
 
 ```sh
-node ./src/1-collection-cars.js
+node ./src/1-collection-beyblades.js
 ```
 
 ## 2. Create Achievements collection
@@ -44,7 +43,7 @@ node ./src/1-collection-cars.js
 node ./src/2-collection-achievement.js
 ```
 
-## 3. Create at least two car NFTs
+## 3. Create at least two Beyblade NFTs
 
 Pass the following arguments to the function
 - collectionId (step 1)
@@ -54,18 +53,20 @@ Pass the following arguments to the function
 For example:
 
 ```sh
-node ./src/3-create-car.js 3135 5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY FastGuy
-node ./src/3-create-car.js 3135 5CPuU98SimxwoHZRZCi8hezgnfBwATs8vKo6haqkaP3hUj7X RaceQueen
+node ./src/3-create-beyblade.js 3135 5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY BladeBreaker
+node ./src/3-create-beyblade.js 3135 5CPuU98SimxwoHZRZCi8hezgnfBwATs8vKo6haqkaP3hUj7X SpinMaster
 ```
 
-## 4. Play the game
+## 4. Battle!
 
 Pass the following arguments to the function
-- Cars collectionId (step 1)
+- Beyblade collectionId (step 1)
 - Achievements collectionId (step 2)
 - First player's tokenId 
 - Second player's tokenId
 
 ```sh
-node ./src/4-play.js 3132 3133 1 2
+node ./src/4-battle.js 3132 3133 1 2
 ```
+
+Enjoy your Beyblade battles and may the best spinner win!

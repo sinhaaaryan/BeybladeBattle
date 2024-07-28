@@ -15,10 +15,14 @@ const createToken = async () => {
 
   const {account, sdk} = await connectSdk();
 
+  const beyblade1 = "https://i.ebayimg.com/images/g/KAgAAOSwBKxmPdkM/s-l1600.webp"
+
+  const beyblade2 = "https://i.ebayimg.com/images/g/KAgAAOSwBKxmPdkM/s-l1600.webp"
+
   // Get pseudo-random car image for fun
   const tokenImage = getRandomInt(2) === 0
-    ? "https://gateway.pinata.cloud/ipfs/QmfWKy52e8pyH1jrLu4hwyAG6iwk6hcYa37DoVe8rdxXwV"
-    : "https://gateway.pinata.cloud/ipfs/QmNn6jfFu1jE7xPC2oxJ75kY1RvA2tz9bpQDsqweX2kDig"
+    ? beyblade1
+    : beyblade2
 
   const tokenTx = await sdk.token.createV2({
     collectionId,

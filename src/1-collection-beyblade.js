@@ -10,8 +10,8 @@ const createCollection = async () => {
 
   // 2. Mint collection
   const {parsed} = await sdk.collection.createV2({
-    name: "Racing Dreams",
-    description: "Racing simulation demo",
+    name: "Beyblade battle",
+    description: "Beyblade simulation",
     symbol: "CAR",
     cover_image: {url: "https://gateway.pinata.cloud/ipfs/QmeNzaLfsUUi5pGmhrASEpXF52deCDuByeKbU7SuZ9toEi"},
     // NOTICE: activate nesting for collection admin in order to assign achievements
@@ -34,7 +34,7 @@ const createCollection = async () => {
   
   const collectionId = parsed.collectionId;
   console.log('Collection ID:', collectionId);
-  console.log(`Explore your collection: https://uniquescan.io/opal/collections/${collectionId}`);
+  console.log(`Explore your beyblade collection: https://uniquescan.io/opal/collections/${collectionId}`);
 
   process.exit(0);
 }
