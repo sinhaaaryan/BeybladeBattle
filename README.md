@@ -103,6 +103,6 @@ After creating your Beyblade NFT, you can view it on UniquerScan using the link 
 - Develop cross-chain functionality with other Polkadot parachains
 
 ## License
-[Insert chosen open-source license here]
+MIT Open Source
 
 Enjoy creating your unique Beyblade NFTs!
