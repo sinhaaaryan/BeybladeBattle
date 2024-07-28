@@ -13,15 +13,15 @@ This project demonstrates how to create and manage a Beyblade battle NFT platfor
 
 Let's dive into our exciting Beyblade battle NFT game! In this game, users can mint NFTs that represent powerful Beyblades. Each NFT starts with an empty battle record—no wins, no losses.
 
-<img src="./images/img1.png">
+
 
 Players can then engage in thrilling Beyblade battles against each other. When a Beyblade wins a battle, its `Victories` counter increases. If it loses, the `Defeats` counter increments accordingly.
 
-<img src="./images/img2.png">
+
 
 Epic achievements can be awarded as well, and these achievements are also NFTs owned by the original Beyblade NFTs!
 
-<img src="./images/img3.png">
+
 
 ### Talking about restrictions
 
