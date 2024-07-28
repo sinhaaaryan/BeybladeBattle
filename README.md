@@ -70,14 +70,22 @@ Our project includes a custom NFT minting integration on Unique Network. The `3-
    ```
 
 ## Demo Video
-[Insert link to demo video here]
+https://www.loom.com/share/67eb6a95ccba41c9abc2d47f74105cf4?sid=6aedf4a8-20d2-4ecc-87a9-246ff9958049
 
 ## Screenshots
-[Insert screenshots here]
+<img width="1440" alt="Screenshot 2024-07-28 at 11 43 07 AM" src="https://github.com/user-attachments/assets/bd9584c7-278b-4a02-859f-11ad40aa48da">
+<img width="1439" alt="Screenshot 2024-07-28 at 11 43 15 AM" src="https://github.com/user-attachments/assets/16fa749b-7471-4717-87a5-9ef3f9eab304">
+<img width="1288" alt="Screenshot 2024-07-28 at 11 43 22 AM" src="https://github.com/user-attachments/assets/e0c2c018-b631-47e7-82d3-77ce311c22c1">
+
+
+
 
 ## Project Explanation Video
-[Insert link to project explanation video here]
+https://www.loom.com/share/22a0b3ed18c5434399bc94cc26d793c3?sid=8fd8bf9f-f2be-4407-a2fa-879d6617d9ef
 
+
+## Canva
+https://www.canva.com/design/DAGMN-iZr7I/phNFEg2qz5UInRVYw2B--Q/edit?utm_content=DAGMN-iZr7I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton 
 ## Restrictions
 - All Beyblade NFTs are owned by individual users
 - The application can modify NFT properties
