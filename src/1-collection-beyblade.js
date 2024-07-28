@@ -13,7 +13,7 @@ const createCollection = async () => {
     name: "Beyblade battle",
     description: "Beyblade simulation",
     symbol: "CAR",
-    cover_image: {url: "https://gateway.pinata.cloud/ipfs/QmeNzaLfsUUi5pGmhrASEpXF52deCDuByeKbU7SuZ9toEi"},
+    cover_image: {url: "https://i.ytimg.com/vi/26Xms2jTGgE/maxresdefault.jpg"},
     // NOTICE: activate nesting for collection admin in order to assign achievements
     permissions: {nesting: {collectionAdmin: true}},
     encodeOptions: {
