@@ -1,6 +1,6 @@
 # Beyblade Battle NFT Platform
 
-This project demonstrates how to create and manage a Beyblade battle NFT platform using nested tokens within the Unique Network.
+Beyblade battle NFT platform using nested tokens within the Unique Network.
 
 ### Before we start
 
@@ -57,16 +57,6 @@ node ./src/3-create-beyblade.js 3135 5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHG
 node ./src/3-create-beyblade.js 3135 5CPuU98SimxwoHZRZCi8hezgnfBwATs8vKo6haqkaP3hUj7X SpinMaster
 ```
 
-## 4. Battle!
 
-Pass the following arguments to the function
-- Beyblade collectionId (step 1)
-- Achievements collectionId (step 2)
-- First player's tokenId 
-- Second player's tokenId
 
-```sh
-node ./src/4-battle.js 3132 3133 1 2
-```
-
-Enjoy your Beyblade battles and may the best spinner win!
+Enjoy your Beyblade NFTs!
